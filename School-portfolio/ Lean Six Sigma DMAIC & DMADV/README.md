@@ -1,7 +1,7 @@
 # 📘 Lean Six Sigma Project — DMAIC & DMADV
 Process Design and Process Improvement in an IT Environment
 
-This repository contains the deliverables of a Lean Six Sigma project carried out within an IT service organization. The project combines both DMADV (designing a new process) and DMAIC (improving an existing process), applied to a complex onboarding workflow for cloud‑based workplace environments. 
+This Lean Six Sigma project was carried out within an IT service organization. The project combines both DMADV (designing a new process) and DMAIC (improving an existing process), applied to a complex onboarding workflow for cloud‑based workplace environments. 
 
 # 🎯 Project Summary
 The goal of the project was to:
