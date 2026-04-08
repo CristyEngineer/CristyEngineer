@@ -1,5 +1,3 @@
-# Error Handling Example
-# Demonstrates try/except blocks to prevent program crashes
 
 try:
     number = int(input("Enter a number: "))
