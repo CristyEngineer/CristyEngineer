@@ -16,25 +16,22 @@ The goal of this project is to demonstrate my ability to:
 - structure a technical project in GitHub
 
 🗂️ Project Structure
-SQL-porfolio/
-│
-├── data/                
-│   ├── ahu_units.csv
-│   ├── alarms.csv
-│   ├── change_orders.csv
-│   ├── cost_breakdown.csv
-│   ├── labor_hours.csv
-│   ├── materials.csv
-│   ├── sensor_readings.csv
-│   ├── sensors.csv
-│   └── insert_sample_data.sql
-│
-├── schema/              
-│   ├── create_tables.sql
-│   └── relationships.sql
-│
-└── procedures/          
-    └── alarm_handling.sql
+SQL-porfolio
+    data/              
+        ahu_units.csv
+        alarms.csv
+        change_orders.csv
+        cost_breakdown.csv
+        labor_hours.csv
+        materials.csv
+        sensor_readings.csv
+        sensors.csv
+        insert_sample_data.sql
+    schema/              
+        create_tables.sql
+        relationships.sql
+    procedures/          
+        alarm_handling.sql
     
 🎯 Skills Demonstrated
 - SQL schema design
