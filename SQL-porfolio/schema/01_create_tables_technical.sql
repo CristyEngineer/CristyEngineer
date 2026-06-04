@@ -82,9 +82,10 @@ CREATE TABLE setpoints (
     ahu_id          INT,
     zone_id         INT,
     setpoint_name   VARCHAR(100) NOT NULL,
-    setpoint_value  DECIMAL(10,2) NOT NULL,
-    unit            VARCHAR(20),
+    setpoint_type   VARCHAR(20) NOT NULL,        -- analog / digital
+    setpoint_value  DECIMAL(10,2),               -- alleen gebruikt bij analog
+    unit            VARCHAR(20),                 -- °C, Pa, m3/h, ppm
+    allowed_values  VARCHAR(100),                -- alleen gebruikt bij digital (bijv. 'ON,OFF')
     effective_from  TIMESTAMP NOT NULL DEFAULT NOW(),
     effective_to    TIMESTAMP
 );
-
