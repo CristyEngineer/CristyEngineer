@@ -83,9 +83,9 @@ CREATE TABLE setpoints (
     zone_id         INT,
     setpoint_name   VARCHAR(100) NOT NULL,
     setpoint_type   VARCHAR(20) NOT NULL,        -- analog / digital
-    setpoint_value  DECIMAL(10,2),               -- alleen gebruikt bij analog
+    setpoint_value  DECIMAL(10,2),               -- analog
     unit            VARCHAR(20),                 -- °C, Pa, m3/h, ppm
-    allowed_values  VARCHAR(100),                -- alleen gebruikt bij digital (bijv. 'ON,OFF')
+    allowed_values  VARCHAR(100),                -- digital ('ON,OFF')
     effective_from  TIMESTAMP NOT NULL DEFAULT NOW(),
     effective_to    TIMESTAMP
 );
