@@ -1,1 +1,228 @@
+body {
+    font-family: Copperplate Gothic Light;
+    margin: 0;
+    background-color: #CC9900;
+    color: #0D3512;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #0D3512;
+    padding: 20px 40px;
+    font-family: Copperplate Gothic Light;
+}
+
+/* ===== NAV ===== */
+nav {
+    background-color: #0D3512;
+    padding: 10px 40px;
+    font-family: Copperplate Gothic Light;
+    border-top: 1px solid rgba(204, 153, 0, 0.3);
+}
+
+/* ===== CENTRER CONTAINER ===== */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* ===== LOGO CENTREREN ===== */
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* logo grootte */
+header img {
+    height: 200px;
+    width: auto;
+}
+
+/* ===== NAV CENTREREN ===== */
+.nav-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: Copperplate Gothic Light;
+}
+
+/* links */
+nav a {
+    color: #CC9900;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ===== TITEL ===== */
+main h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== MAIN ===== */
+main {
+    padding: 30px;
+    font-family: Copperplate Gothic Light;
+}
+
+/* icoontjes */
+main i {
+    margin-right: 10px;
+    color: #0D3512;
+    font-family: Copperplate Gothic Light;
+}
+
+/* ===== 2 KOLOMMEN ===== */
+.two-columns {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: stretch;
+}
+
+.two-columns .text,
+.two-columns .image {
+    flex: 1;
+    max-width: 500px;
+    font-family: Copperplate Gothic Light;
+    text-align: center;
+}
+
+/* afbeelding netjes laten schalen */
+.two-columns img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ===== MOBIEL ===== */
+@media (max-width: 768px) {
+    .two-columns {
+        flex-direction: column;
+    }
+}
+
+.two-columns .text,
+.two-columns .image {
+    background-color: #0D3512;
+    color: #CC9900;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 20);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #CC9900; 
+    color: #0D3512 ;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 5);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(204, 153, 0, 0.6);
+}
+.footer {
+    background-color: #0D3512;
+    color: #CC9900;
+    padding: 40px 0 20px;
+    width: 100%;
+    font-family: Copperplate Gothic Light;
+}
+
+/* Layout */
+.footer-content {    
+    justify-content: space-between; 
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* drie gelijke kolommen */
+    padding: 0 40px; /* gelijke ruimte links en rechts */
+    gap: 40px; /* gelijke ruimte tussen kolommen */
+}
+
+/* Kolommen */
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Links */
+.footer-column a {
+    color: #CC9900;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Zorg dat p en a dezelfde spacing hebben */
+.footer-column p,
+.footer-column a {
+    margin: 0;
+    padding: 2px 0; /* kleine nette spacing */
+    font-size: 15px;
+    color: #CC9900;
+    text-decoration: none;
+}
+
+/* Maak de kolom strakker en consistenter */
+
+
+/* Logo */
+.footer-logo img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 10px;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(204, 153, 0, 0.3);
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+    .footer-content {
+        gap: 40px;
+    }
+
+    .footer-logo img {
+        height: 90px;
+    }
+}
 
